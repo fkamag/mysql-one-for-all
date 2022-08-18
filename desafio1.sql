@@ -161,12 +161,12 @@ INSERT INTO SpotifyClone.user_artist (id_user, id_artist)
 INSERT INTO SpotifyClone.song (name_song, id_album, duration)
 	VALUES
 		('Break My Soul',	1,	279),
-		('Virgo’s Groove',	1,	369),
-		('Alien Superstar',	1,	116),
+		('VIRGO’S GROOVE',	1,	369),
+		('ALIEN SUPERSTAR',	1,	116),
 		('Don’t Stop Me Now',	2,	203),
 		('Under Pressure',	3,	152),
 		('Como Nossos Pais',	4,	105),
-		('O medo de amar é o medo de ser livre',	5,	207),
+		('O Medo de Amar é o Medo de Ser Livre',	5,	207),
 		('Samba em Paris',	6,	267),
 		('The Bard’s Song',	7,	244),
 		('Feeling Good',	8,	100);
