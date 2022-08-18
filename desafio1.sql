@@ -85,11 +85,10 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `SpotifyClone`.`user_song` (
   `id_user` INT NOT NULL,
   `id_song` INT NOT NULL,
-  `id_played` INT NOT NULL AUTO_INCREMENT,
   `date_played` VARCHAR(45) NOT NULL,
   INDEX `fk_user_has_song_song1_idx` (`id_song` ASC),
   INDEX `fk_user_has_song_user1_idx` (`id_user` ASC),
-  PRIMARY KEY (`id_played`),
+  PRIMARY KEY (`id_song`, `date_played`),
   CONSTRAINT `fk_user_has_song_user1`
     FOREIGN KEY (`id_user`)
     REFERENCES `SpotifyClone`.`user` (`id_user`)
@@ -153,7 +152,7 @@ INSERT INTO SpotifyClone.user_artist (id_user, id_artist)
 		(4,	4),
 		(5,	5),
 		(5,	6),
-    (6, 6),
+		(6,	6),
 		(6,	1),
 		(7,	6),
 		(9,	3),

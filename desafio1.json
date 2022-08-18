@@ -4,7 +4,7 @@
   "tabela_plano": "plan",
   "coluna_plano": "name_plan",
   "tabela_historico_de_reproducoes": "user_song",
-  "coluna_historico_de_reproducoes": "id_played",
+  "coluna_historico_de_reproducoes": "id_song",
   "tabela_seguindo_artistas": "user_artist",
   "coluna_seguindo_artistas": "id_artist",
   "tabela_artista": "artist",
