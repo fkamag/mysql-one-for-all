@@ -153,6 +153,7 @@ INSERT INTO SpotifyClone.user_artist (id_user, id_artist)
 		(4,	4),
 		(5,	5),
 		(5,	6),
+    (6, 6),
 		(6,	1),
 		(7,	6),
 		(9,	3),
