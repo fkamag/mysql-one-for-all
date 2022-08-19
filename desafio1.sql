@@ -160,7 +160,7 @@ INSERT INTO SpotifyClone.user_artist (id_user, id_artist)
 
 INSERT INTO SpotifyClone.song (name_song, id_album, duration)
 	VALUES
-		('Break My Soul',	1,	279),
+		('BREAK MY SOUL',	1,	279),
 		('VIRGO’S GROOVE',	1,	369),
 		('ALIEN SUPERSTAR',	1,	116),
 		('Don’t Stop Me Now',	2,	203),
